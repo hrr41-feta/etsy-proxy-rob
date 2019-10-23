@@ -1,0 +1,19 @@
+{
+  "name": "btetsy-dang-proxy",
+  "version": "1.0.0",
+  "description": "Proxy Server for Running all BTetsy modules together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FEC-GOKU/BTetsy-Dang-Proxy.git"
+  },
+  "author": "Silin Dang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FEC-GOKU/BTetsy-Dang-Proxy/issues"
+  },
+  "homepage": "https://github.com/FEC-GOKU/BTetsy-Dang-Proxy#readme"
+}
