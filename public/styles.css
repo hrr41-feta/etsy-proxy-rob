@@ -1,0 +1,23 @@
+/* body {
+  padding: 5% 10%;
+} */
+
+.lowerContainer {
+  display:flex;
+  flex-direction:row;
+  /* justify-content: space-around; */
+}
+#carousel {
+  overflow: hidden;
+}
+
+#root {
+  display:flex;
+  flex-direction:column;
+  margin-left: 5%;
+}
+#description {
+  display:flex;
+  flex-direction:column;
+  margin-left: 5%;
+}
