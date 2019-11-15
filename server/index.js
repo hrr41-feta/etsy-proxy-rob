@@ -4,6 +4,10 @@ const proxy = require("http-proxy-middleware");
 const PORT = 3500;
 app = express();
 
+app.get("/loaderio-c3fed30e7f6337ddb87a1485bd6623c9/", (req, res) => {
+  res.send("loaderio-c3fed30e7f6337ddb87a1485bd6623c9");
+});
+
 app.use(
   proxy("/api/checkout", {
     target: "http://ec2-52-15-159-32.us-east-2.compute.amazonaws.com:1234"
