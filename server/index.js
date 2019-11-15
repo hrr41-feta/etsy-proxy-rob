@@ -4,8 +4,8 @@ const proxy = require("http-proxy-middleware");
 const PORT = 3500;
 app = express();
 
-app.get("/loaderio-c3fed30e7f6337ddb87a1485bd6623c9/", (req, res) => {
-  res.send("loaderio-c3fed30e7f6337ddb87a1485bd6623c9");
+app.get("/loaderio-65d26e727c99e49651f8adc06aa751a5", (req, res) => {
+  res.send("loaderio-65d26e727c99e49651f8adc06aa751a5");
 });
 
 app.use(
